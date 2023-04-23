@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa Wilmer y Natalia</title>
+    <link rel="shortcut icon" href="img/lg-rd.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Cabezote-->
+    <header>
+        <!--Logotipo-->
+        <div id="logo">
+            <img src="img/lg-rd.png" alt="--Logotipo--" style="width: 130px;">
+        </div>
+        <!--Barra de navegación-->
+        <nav>
+            <ul>
+                <li class="botones"><a href="index.html">Inicio</a></li>
+                <li class="botones"><a href="productos.html">Productos</a></li>
+                <li class="botones"><a href="quienes.html">Quiénes Somos</a></li>
+                <li class="botones"><a href="contacto.html">Contáctanos</a></li>
+                
+                <a class="navbar-brand" href="pagar.html">
+                    <img src="img/carrito.png" alt="" width="40" height="40" margin="5">
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Caja superior-->
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="img/ServicioCliente.png" alt="" width="570" height="320" margin="5">
+        </div>
+        <div class="grid-item">
+            
+            <form action="index.html" target="" method="get" name="formDatosPersonales">
+
+               
+                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre"/>
+                
+                <input type="email" name="email" id="email" placeholder="Email"/>
+                
+                <input type="number" name="Telefono" id="Telefono" placeholder="Telefono"/>
+            
+                <textarea name="mensaje" for="mensaje" placeholder="" maxlength="300"></textarea>
+                
+                <input type="submit" name="enviar" value="Enviar"/>
+            </form>
+        </div>
+        <div class="grid-item"></div>  
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>  
+         
+    </div>
+
+    <footer>
+        <br>
+        <div class="container-fluid footer">
+            <br>
+            <div class="row justify-content-between pb-3">
+                <div class="col-sm-12 col-xl-3 ps-5">
+                    <h6>Acerca de nuestra tienda:</h6>
+                    <hr>
+                    <h6><a href="pagar.html">Términos y condiciones</a><br><a href="contacto.html">Trabaja con nosotros</a><br><a href="productos.html">Nuestro catalogo</a><br><a href="quienes.html">Nuestras tiendas</a></h6>
+                    <hr>
+                </div>
+                <div class="col-sm-12 col-xl-2 align-self-center">
+                    <hr>
+                    <a href="#"><img class="img-redes p-1" src="img/facebook.png" alt=""></a>
+                    <a href="#"><img class="img-redes p-1" src="img/instagram.png" alt=""></a>
+                    <a href="#"><img class="img-redes p-1" src="img/whatsapp.png" alt=""></a>
+                    <a href="#"><img class="img-redes p-1" src="img/telegram.png" alt=""></a>
+                    <hr>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="copy">&copy; Wilmer Callejas & Natalia Mantilla</div>
+        
+    </footer>
+
+</body>
+
+</html>
