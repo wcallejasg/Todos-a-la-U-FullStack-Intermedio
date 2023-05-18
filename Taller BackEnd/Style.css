@@ -1,0 +1,54 @@
+html{
+    overflow: hidden;
+}
+.St-FondoLogin {
+    height: 50rem;
+    background-image: url(../img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.St-FondoLogin::before {
+    content: "";
+    width: 100%;
+    height: 50rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#1a57b3, #000000);
+    opacity: 0.7;
+}
+
+
+
+.St-ContLogin {
+    background-color: rgb(36, 32, 255);
+    padding: 30px;
+    border-radius: 20px;
+    border: solid 1px;
+
+    -webkit-box-shadow: 15px 15px 61px 1px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 15px 15px 61px 1px rgba(0, 0, 0, 0.89);
+    box-shadow: 15px 15px 61px 1px rgba(0, 0, 0, 0.89);
+}
+
+/* style="background-color: black; padding:30px; border-radius: 20px; border: solid 1px;"*/
+.St-Logo-img {
+    border-radius: 100%;
+}
+
+.St-form {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.St-TituloLogin {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro de Datos</title>
+    <link rel="stylesheet" href="Estilos/Style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container-fluid St-FondoLogin">
+        <div class="row justify-content-center" style="position:relative; padding-top: 1.5rem;">
+            <div class="col-sm-8 col-xl-4 St-ContLogin">
+                <div class="row justify-content-center">
+                    <h1 class="St-TituloLogin">Base de datos</h1>
+                    <div class="col-8">
+                        <img src="img/fondoi.jpg" class="img-fluid St-Logo-img" style=" padding-bottom: 10px;">
+                    </div>
+                    <div class="col-8">
+                        <form action="Filtro.php" method="post">
+                            <div class="mb-3">
+                                <div class="input-group flex-nowrap col-12 St-form">
+                                    <span class="input-group-text" id="addon-wrapping" style=" width: 75px; padding: .70rem .50rem;">Nombre</span>
+                                    <input type="text" class="form-control" name="nombre" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                                <div class="input-group flex-nowrap col-12 St-form">
+                                    <span class="input-group-text" id="addon-wrapping" style=" width: 75px; padding: .70rem .50rem;">Apellido</span>
+                                    <input type="text" class="form-control" name="apellido" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                                <div class="input-group flex-nowrap col-12 St-form">
+                                    <span class="input-group-text" style=" width: 75px; padding: .70rem .50rem;" id="addon-wrapping">Cédula</span>
+                                    <input type="text" class="form-control" name="cedula" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>                                
+                                <div class="btn-group col-12 St-form" role="group" aria-label="Basic outlined example">
+                                    <button type="submit" class="btn btn-primary" style="border-radius: 5px;">Registrar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+</body>
+</html>

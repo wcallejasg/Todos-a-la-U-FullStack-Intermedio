@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mayor o menor</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/Style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+        <div class="container-fluid St-FondoLogin">
+            <div class="row justify-content-center" style="position:relative; padding-top: 1.5rem;">
+                <div class="col-sm-8 col-xl-4 St-ContLogin">
+                    <div class="row justify-content-center">
+                        <h1 class="St-TituloLogin">Mayor o menor</h1>
+                        <div class="col-8">
+                            <img src="img/mayor.jpg" class="img-fluid St-Logo-img" style=" padding-bottom: 10px;">
+                        </div>
+                        <div class="col-10">
+                            <form action="edad.php" method="post">
+                                <div class="mb-3">
+                                    <div class="input-group flex-nowrap col-12 St-form">
+                                        <span class="input-group-text" id="addon-wrapping" style=" width: 90px; padding: .70rem .50rem;">Edad</span>
+                                        <input type="number" class="form-control" id="edad" name="edad" placeholder="Ingrese su edad" aria-describedby="addon-wrapping">
+                                    </div>
+                                   
+                                    
+                                    
+                                    <div class="btn-group col-12 St-form" role="group" aria-label="Basic outlined example">
+                                        <button type="submit" id="verificar" name="verificar" class="btn btn-primary" style="border-radius: 5px; margin-top: 15px;">Verificar</button>
+                                    </div>
+                                    <div class="btn-group col-12 St-form" role="group" aria-label="Basic outlined example">
+                                        <a href="index.html" class="btn btn-dark" style="border-radius: 5px;">Regresar</a>
+                                    </div>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>                 
+</body>
+</html>
