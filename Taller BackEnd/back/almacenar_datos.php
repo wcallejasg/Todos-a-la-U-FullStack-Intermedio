@@ -1,6 +1,6 @@
 <?php
 
-include '../db/conexion.php';
+include 'conexion.php';
 
         if (isset($_POST['almacenar'])) {
             $nombre = $_POST['nombre'];
